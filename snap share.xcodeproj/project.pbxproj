@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		69FB116A1F796EA200368E09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FB11691F796EA200368E09 /* AppDelegate.swift */; };
+		69FB116C1F796EA200368E09 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FB116B1F796EA200368E09 /* ViewController.swift */; };
+		69FB116F1F796EA200368E09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69FB116D1F796EA200368E09 /* Main.storyboard */; };
+		69FB11711F796EA200368E09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69FB11701F796EA200368E09 /* Assets.xcassets */; };
+		69FB11741F796EA200368E09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69FB11721F796EA200368E09 /* LaunchScreen.storyboard */; };
+		69FB117F1F796EA200368E09 /* snap_shareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FB117E1F796EA200368E09 /* snap_shareTests.swift */; };
+		69FB118A1F796EA200368E09 /* snap_shareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FB11891F796EA200368E09 /* snap_shareUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		69FB117B1F796EA200368E09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69FB115E1F796EA100368E09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69FB11651F796EA100368E09;
+			remoteInfo = "snap share";
+		};
+		69FB11861F796EA200368E09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69FB115E1F796EA100368E09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69FB11651F796EA100368E09;
+			remoteInfo = "snap share";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		69FB11661F796EA200368E09 /* snap share.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "snap share.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69FB11691F796EA200368E09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		69FB116B1F796EA200368E09 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		69FB116E1F796EA200368E09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		69FB11701F796EA200368E09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		69FB11731F796EA200368E09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		69FB11751F796EA200368E09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69FB117A1F796EA200368E09 /* snap shareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "snap shareTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69FB117E1F796EA200368E09 /* snap_shareTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = snap_shareTests.swift; sourceTree = "<group>"; };
+		69FB11801F796EA200368E09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69FB11851F796EA200368E09 /* snap shareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "snap shareUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69FB11891F796EA200368E09 /* snap_shareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = snap_shareUITests.swift; sourceTree = "<group>"; };
+		69FB118B1F796EA200368E09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69FB11631F796EA100368E09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69FB11771F796EA200368E09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69FB11821F796EA200368E09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		69FB115D1F796EA100368E09 = {
+			isa = PBXGroup;
+			children = (
+				69FB11681F796EA200368E09 /* snap share */,
+				69FB117D1F796EA200368E09 /* snap shareTests */,
+				69FB11881F796EA200368E09 /* snap shareUITests */,
+				69FB11671F796EA200368E09 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		69FB11671F796EA200368E09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69FB11661F796EA200368E09 /* snap share.app */,
+				69FB117A1F796EA200368E09 /* snap shareTests.xctest */,
+				69FB11851F796EA200368E09 /* snap shareUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69FB11681F796EA200368E09 /* snap share */ = {
+			isa = PBXGroup;
+			children = (
+				69FB11691F796EA200368E09 /* AppDelegate.swift */,
+				69FB116B1F796EA200368E09 /* ViewController.swift */,
+				69FB116D1F796EA200368E09 /* Main.storyboard */,
+				69FB11701F796EA200368E09 /* Assets.xcassets */,
+				69FB11721F796EA200368E09 /* LaunchScreen.storyboard */,
+				69FB11751F796EA200368E09 /* Info.plist */,
+			);
+			path = "snap share";
+			sourceTree = "<group>";
+		};
+		69FB117D1F796EA200368E09 /* snap shareTests */ = {
+			isa = PBXGroup;
+			children = (
+				69FB117E1F796EA200368E09 /* snap_shareTests.swift */,
+				69FB11801F796EA200368E09 /* Info.plist */,
+			);
+			path = "snap shareTests";
+			sourceTree = "<group>";
+		};
+		69FB11881F796EA200368E09 /* snap shareUITests */ = {
+			isa = PBXGroup;
+			children = (
+				69FB11891F796EA200368E09 /* snap_shareUITests.swift */,
+				69FB118B1F796EA200368E09 /* Info.plist */,
+			);
+			path = "snap shareUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		69FB11651F796EA100368E09 /* snap share */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69FB118E1F796EA200368E09 /* Build configuration list for PBXNativeTarget "snap share" */;
+			buildPhases = (
+				69FB11621F796EA100368E09 /* Sources */,
+				69FB11631F796EA100368E09 /* Frameworks */,
+				69FB11641F796EA100368E09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "snap share";
+			productName = "snap share";
+			productReference = 69FB11661F796EA200368E09 /* snap share.app */;
+			productType = "com.apple.product-type.application";
+		};
+		69FB11791F796EA200368E09 /* snap shareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69FB11911F796EA200368E09 /* Build configuration list for PBXNativeTarget "snap shareTests" */;
+			buildPhases = (
+				69FB11761F796EA200368E09 /* Sources */,
+				69FB11771F796EA200368E09 /* Frameworks */,
+				69FB11781F796EA200368E09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69FB117C1F796EA200368E09 /* PBXTargetDependency */,
+			);
+			name = "snap shareTests";
+			productName = "snap shareTests";
+			productReference = 69FB117A1F796EA200368E09 /* snap shareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		69FB11841F796EA200368E09 /* snap shareUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69FB11941F796EA200368E09 /* Build configuration list for PBXNativeTarget "snap shareUITests" */;
+			buildPhases = (
+				69FB11811F796EA200368E09 /* Sources */,
+				69FB11821F796EA200368E09 /* Frameworks */,
+				69FB11831F796EA200368E09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69FB11871F796EA200368E09 /* PBXTargetDependency */,
+			);
+			name = "snap shareUITests";
+			productName = "snap shareUITests";
+			productReference = 69FB11851F796EA200368E09 /* snap shareUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69FB115E1F796EA100368E09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Sam Burrell";
+				TargetAttributes = {
+					69FB11651F796EA100368E09 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					69FB11791F796EA200368E09 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 69FB11651F796EA100368E09;
+					};
+					69FB11841F796EA200368E09 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 69FB11651F796EA100368E09;
+					};
+				};
+			};
+			buildConfigurationList = 69FB11611F796EA100368E09 /* Build configuration list for PBXProject "snap share" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 69FB115D1F796EA100368E09;
+			productRefGroup = 69FB11671F796EA200368E09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69FB11651F796EA100368E09 /* snap share */,
+				69FB11791F796EA200368E09 /* snap shareTests */,
+				69FB11841F796EA200368E09 /* snap shareUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69FB11641F796EA100368E09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69FB11741F796EA200368E09 /* LaunchScreen.storyboard in Resources */,
+				69FB11711F796EA200368E09 /* Assets.xcassets in Resources */,
+				69FB116F1F796EA200368E09 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69FB11781F796EA200368E09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69FB11831F796EA200368E09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69FB11621F796EA100368E09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69FB116C1F796EA200368E09 /* ViewController.swift in Sources */,
+				69FB116A1F796EA200368E09 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69FB11761F796EA200368E09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69FB117F1F796EA200368E09 /* snap_shareTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69FB11811F796EA200368E09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69FB118A1F796EA200368E09 /* snap_shareUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		69FB117C1F796EA200368E09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69FB11651F796EA100368E09 /* snap share */;
+			targetProxy = 69FB117B1F796EA200368E09 /* PBXContainerItemProxy */;
+		};
+		69FB11871F796EA200368E09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69FB11651F796EA100368E09 /* snap share */;
+			targetProxy = 69FB11861F796EA200368E09 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		69FB116D1F796EA200368E09 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69FB116E1F796EA200368E09 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		69FB11721F796EA200368E09 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69FB11731F796EA200368E09 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		69FB118C1F796EA200368E09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		69FB118D1F796EA200368E09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		69FB118F1F796EA200368E09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LCX585E792;
+				INFOPLIST_FILE = "snap share/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sam-Burrell.snap-share";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		69FB11901F796EA200368E09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LCX585E792;
+				INFOPLIST_FILE = "snap share/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sam-Burrell.snap-share";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		69FB11921F796EA200368E09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = LCX585E792;
+				INFOPLIST_FILE = "snap shareTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sam-Burrell.snap-shareTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/snap share.app/snap share";
+			};
+			name = Debug;
+		};
+		69FB11931F796EA200368E09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = LCX585E792;
+				INFOPLIST_FILE = "snap shareTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sam-Burrell.snap-shareTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/snap share.app/snap share";
+			};
+			name = Release;
+		};
+		69FB11951F796EA200368E09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = LCX585E792;
+				INFOPLIST_FILE = "snap shareUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sam-Burrell.snap-shareUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "snap share";
+			};
+			name = Debug;
+		};
+		69FB11961F796EA200368E09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = LCX585E792;
+				INFOPLIST_FILE = "snap shareUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Sam-Burrell.snap-shareUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "snap share";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69FB11611F796EA100368E09 /* Build configuration list for PBXProject "snap share" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69FB118C1F796EA200368E09 /* Debug */,
+				69FB118D1F796EA200368E09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69FB118E1F796EA200368E09 /* Build configuration list for PBXNativeTarget "snap share" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69FB118F1F796EA200368E09 /* Debug */,
+				69FB11901F796EA200368E09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69FB11911F796EA200368E09 /* Build configuration list for PBXNativeTarget "snap shareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69FB11921F796EA200368E09 /* Debug */,
+				69FB11931F796EA200368E09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69FB11941F796EA200368E09 /* Build configuration list for PBXNativeTarget "snap shareUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69FB11951F796EA200368E09 /* Debug */,
+				69FB11961F796EA200368E09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 69FB115E1F796EA100368E09 /* Project object */;
+}
